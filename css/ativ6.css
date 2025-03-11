@@ -19,11 +19,39 @@ dt{
 li{
     list-style: none;
 }
+a:link, a:visited {
+    color: #00AA99;
+}
 aside a{
     font-size: 1.1em;
     text-transform: uppercase;
+}
+aside a:link, aside a:visited{
     color: #F00;
 }
+aside a:hover{
+    color:burlywood;
+}
 section {
-    text-align: justify;
+    text-align: justify;
+}
+a:hover {
+    color: #306b30;
+}
+aside p::before{
+    content: open-quote;
+}
+aside p::after{
+    content: close-quote;
+}
+.destaqueHistoria{
+    font-size: 1.05em;
+    color:crimson;
+    text-transform: uppercase;
+}
+#dadosAtendimento{
+    font-size: 1.05em;
+    font-weight: bold;
+    font-style: italic;
+    color: #008000;
 }
